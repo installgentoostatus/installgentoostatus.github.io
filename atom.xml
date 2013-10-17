@@ -4,7 +4,7 @@
   <title><![CDATA[installgentoo_status]]></title>
   <link href="http://installgentoostatus.github.io/atom.xml" rel="self"/>
   <link href="http://installgentoostatus.github.io/"/>
-  <updated>2013-10-17T03:20:51+02:00</updated>
+  <updated>2013-10-17T03:30:11+02:00</updated>
   <id>http://installgentoostatus.github.io/</id>
   <author>
     <name><![CDATA[bananafish]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[status blog move... again]]></title>
+    <link href="http://installgentoostatus.github.io/blog/2013/10/17/status-blog-move-dot-dot-dot-again/"/>
+    <updated>2013-10-17T03:28:00+02:00</updated>
+    <id>http://installgentoostatus.github.io/blog/2013/10/17/status-blog-move-dot-dot-dot-again</id>
+    <content type="html"><![CDATA[<p>okay, so.. yes I moved the status blog again.  I had forgotten about github
+pages actually, and I really do like octopress.  NulledNets actually put it in
+my head to try github pages so thanks to him.  That&rsquo;s all I guess, I think we
+are gonna stick to here, octopress is very nice.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thanks to some long time staff members.]]></title>
@@ -226,16 +238,6 @@
     <updated>2013-08-12T00:00:00+02:00</updated>
     <id>http://installgentoostatus.github.io/blog/2013/08/12/mail-downtime</id>
     <content type="html"><![CDATA[<p>Planned maintenence on all of our servers is now complete, we have succesfully moved all mail services to our unified email server.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mumble server moved]]></title>
-    <link href="http://installgentoostatus.github.io/blog/2013/07/26/mumble-server-moved/"/>
-    <updated>2013-07-26T00:00:00+02:00</updated>
-    <id>http://installgentoostatus.github.io/blog/2013/07/26/mumble-server-moved</id>
-    <content type="html"><![CDATA[<p>We have moved the mumble server to a different server to provide better access and consistent service.  The interruption may be minimal as our dns entries change.  Do not be alarmed as you will have to regenerate certificates with the new server.</p>
 
 ]]></content>
   </entry>
