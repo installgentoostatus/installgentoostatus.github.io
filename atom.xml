@@ -4,7 +4,7 @@
   <title><![CDATA[installgentoo_status]]></title>
   <link href="http://installgentoostatus.github.io/atom.xml" rel="self"/>
   <link href="http://installgentoostatus.github.io/"/>
-  <updated>2013-10-17T03:30:59+02:00</updated>
+  <updated>2013-10-17T03:34:51+02:00</updated>
   <id>http://installgentoostatus.github.io/</id>
   <author>
     <name><![CDATA[bananafish]]></name>
@@ -18,7 +18,10 @@
     <link href="http://installgentoostatus.github.io/blog/2013/10/17/status-blog-move-dot-dot-dot-again/"/>
     <updated>2013-10-17T03:28:00+02:00</updated>
     <id>http://installgentoostatus.github.io/blog/2013/10/17/status-blog-move-dot-dot-dot-again</id>
-    <content type="html"><![CDATA[<p>okay, so.. yes I moved the status blog again.  I had forgotten about github pages actually, and I really do like octopress.  NulledNets actually put it in my head to try github pages so thanks to him.  That&rsquo;s all I guess, I think we are gonna stick to here, octopress is very nice.</p>
+    <content type="html"><![CDATA[<p>okay, so.. yes I moved the status blog again.  I had forgotten about github pages actually, and I really do like octopress.</p>
+
+<p>NulledNets actually put it in my head to try github pages so thanks to him.<br/>
+That&rsquo;s all I guess, I think we are gonna stick to here, octopress is very nice.</p>
 ]]></content>
   </entry>
   
