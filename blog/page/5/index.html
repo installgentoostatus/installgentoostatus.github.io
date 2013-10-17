@@ -9,7 +9,7 @@
   <meta name="author" content="bananafish">
 
   
-  <meta name="description" content="News for /g/mail Jun 17th, 2013 Okay last blog post I stated I would nuke the server and reinstate service minus the backups.  Before doing this I &hellip;">
+  <meta name="description" content="The Smoke Clears - 0day Downtime Conclusion Jun 17th, 2013 Okay the craziness is somewhat over.  I have some good news and some bad news.1.  /g/mail &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +80,59 @@
   </header>
   <section id="main">
       
+  
+  
+    <article class="post">
+      <div class="sharing-box">
+  
+  
+  
+</div>
+
+      
+  <header>
+    
+      <h2 class="entry-title">
+        
+        <a href="/blog/2013/06/17/the-smoke-clears-0day-downtime-conclusion/">The Smoke Clears - 0day Downtime Conclusion</a>
+        
+      </h2>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-17T00:00:00+02:00" pubdate data-updated="true">Jun 17<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <p>Okay the craziness is somewhat over.  I have some good news and some bad news.<br/><br/>1.  /g/mail and news are dead, and I cannot restore from backups as I cannot find the key for the tarsnap archives for these services.<br/><br/>2.  Everything else is fine and back up.<br/><br/>So this means I will reinstate the mail server from fresh, and anyone with an account will need to ask again for one.  As well as the newznab service.<br/><br/>I am very sorry for this as I take full responsibility for botching the backups.<br/><br/><strong>Going forward:</strong><br/></p>
+
+
+<ul><br/><li>I will obviously be taking backups more seriously, starting with a new server for storing them in addition to offsite/offline backups.</li><br/><li>Our DNS is now hosted with Amazon Web Services Route 53, no longer will all of our services go down if our primary DNS (was hosted with ramnode) goes down.</li><br/><li>Since our DNS will be much more resilient I will be moving our status site and blog over to an Amazon EC2 instance, one will just have to remember status.installgentoo.com instead of the weird azure urls.</li><br/></ul>
+
+
+<br/>If there is anything I missed please contact me.<br/><br/> <br/><br/>Also backstory:<br/><br/><a href="https://gist.github.com/ElliotSpeck/66943b70c8b98e5b2afb">What happened with ramnode</a><br/><br/><a href="http://paste.installgentoo.com/view/1da24af3">The explanation the next day from the owner</a><br/><br/> 
+
+
+  
+  
+
+
+    </article>
   
   
     <article class="post">
@@ -496,53 +549,6 @@
 
 
   <p>All games are down for the time being.  As they are moved to other servers to better balance the load.</p>
-
-
-  
-  
-
-
-    </article>
-  
-  
-    <article class="post">
-      <div class="sharing-box">
-  
-  
-  
-</div>
-
-      
-  <header>
-    
-      <h2 class="entry-title">
-        
-        <a href="/blog/2013/06/04/ftp-move/">FTP Move</a>
-        
-      </h2>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-06-04T00:00:00+02:00" pubdate data-updated="true">Jun 4<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <p>We have successfully moved our FTP service over to a new server.  The new server has the same specs but now will be running FreeBSD 9.1 instead of Debian GNU/Linux.  The DNS change may take a bit of time to update, so bear with.  Once DNS has propagated I will make a new thread announcing the changes.<br/><br/>Once I get some time I will make the old FTP server available for shells, since the server is paid for until the end of June.  It will not be continued past the expiration date though.</p>
 
 
   

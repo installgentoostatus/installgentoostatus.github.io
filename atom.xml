@@ -4,7 +4,7 @@
   <title><![CDATA[installgentoo_status]]></title>
   <link href="http://installgentoostatus.github.io/atom.xml" rel="self"/>
   <link href="http://installgentoostatus.github.io/"/>
-  <updated>2013-10-17T03:34:51+02:00</updated>
+  <updated>2013-10-17T14:21:00+02:00</updated>
   <id>http://installgentoostatus.github.io/</id>
   <author>
     <name><![CDATA[bananafish]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[server checker fixed]]></title>
+    <link href="http://installgentoostatus.github.io/blog/2013/10/17/server-checker-fixed/"/>
+    <updated>2013-10-17T14:16:00+02:00</updated>
+    <id>http://installgentoostatus.github.io/blog/2013/10/17/server-checker-fixed</id>
+    <content type="html"><![CDATA[<p>Last week our host moved the server that servers.installgentoo.com was located
+on.  We did not realize that this meant the ip was also changing, so DNS needed
+to be updated.  Regardless the server status checker is working once again.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[status blog move... again]]></title>
@@ -228,16 +239,6 @@ That&rsquo;s all I guess, I think we are gonna stick to here, octopress is very 
     <updated>2013-08-22T00:00:00+02:00</updated>
     <id>http://installgentoostatus.github.io/blog/2013/08/22/change-in-down-time</id>
     <content type="html"><![CDATA[<p>Okay downtime now should be any moment now and should only last a few minutes.  This again will only affect the services listed in the previous blog post.<br/><br/> <br/><br/>We are moving are boxes to another server in order to avoid down time tomorrow and get more disk space out of it.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mail downtime]]></title>
-    <link href="http://installgentoostatus.github.io/blog/2013/08/12/mail-downtime/"/>
-    <updated>2013-08-12T00:00:00+02:00</updated>
-    <id>http://installgentoostatus.github.io/blog/2013/08/12/mail-downtime</id>
-    <content type="html"><![CDATA[<p>Planned maintenence on all of our servers is now complete, we have succesfully moved all mail services to our unified email server.</p>
 
 ]]></content>
   </entry>
