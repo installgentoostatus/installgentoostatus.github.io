@@ -4,7 +4,7 @@
   <title><![CDATA[installgentoo_status]]></title>
   <link href="http://installgentoostatus.github.io/atom.xml" rel="self"/>
   <link href="http://installgentoostatus.github.io/"/>
-  <updated>2013-10-17T14:21:00+02:00</updated>
+  <updated>2013-10-20T22:16:24+02:00</updated>
   <id>http://installgentoostatus.github.io/</id>
   <author>
     <name><![CDATA[bananafish]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[/g/mail gets an extra smtp port]]></title>
+    <link href="http://installgentoostatus.github.io/blog/2013/10/20/slash-g-slash-mail-gets-an-extra-smtp-port/"/>
+    <updated>2013-10-20T22:08:00+02:00</updated>
+    <id>http://installgentoostatus.github.io/blog/2013/10/20/slash-g-slash-mail-gets-an-extra-smtp-port</id>
+    <content type="html"><![CDATA[<p>Today we have added a 2nd port for our smtp server to listen on, for our /g/mail
+users.  This is for those who have ISPs that restrict sending mail on port 25,
+so the new ADDITIONAl port is 587.</p>
+
+<p>Those who already use 25, do not worry 25 will continue to operate as normal.</p>
+
+<p>This smtp server can be reached at smtp.installgentoo.com or
+mail.installgentoo.com.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[server checker fixed]]></title>
@@ -229,16 +245,6 @@ That&rsquo;s all I guess, I think we are gonna stick to here, octopress is very 
     <updated>2013-08-22T00:00:00+02:00</updated>
     <id>http://installgentoostatus.github.io/blog/2013/08/22/planned-down-time-friday</id>
     <content type="html"><![CDATA[<p>Friday between 2 - 10&#160;pm EST we expect around 15 minutes of downtime for the following:<br/><br/>irc, /g/mail, vidya, mumble, jabber, main website.<br/><br/> <br/><br/>Our provider is changing out the SSDs these services are stored on and should only last 15 minutes though there is a large window.<br/><br/> <br/><br/>Please stay tuned.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Change in down time]]></title>
-    <link href="http://installgentoostatus.github.io/blog/2013/08/22/change-in-down-time/"/>
-    <updated>2013-08-22T00:00:00+02:00</updated>
-    <id>http://installgentoostatus.github.io/blog/2013/08/22/change-in-down-time</id>
-    <content type="html"><![CDATA[<p>Okay downtime now should be any moment now and should only last a few minutes.  This again will only affect the services listed in the previous blog post.<br/><br/> <br/><br/>We are moving are boxes to another server in order to avoid down time tomorrow and get more disk space out of it.</p>
 
 ]]></content>
   </entry>
