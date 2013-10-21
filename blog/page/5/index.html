@@ -1,0 +1,505 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>installgentoo_status</title>
+  <meta name="author" content="bananafish">
+
+  
+  <meta name="description" content="The /g/news usenet newznab indexer is back online and running after the ramnode incident.  I did have all the user accounts backed-up so anyone with &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://installgentoostatus.github.io/blog/page/5">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="installgentoo_status" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">installgentoo_status</a></h1>
+  
+    <h2>uptime?</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/18/g-news-back-online/">/g/news Back Online</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-18T00:00:00+02:00" pubdate data-updated="true">Jun 18<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>The /g/news usenet newznab indexer is back online and running after the ramnode incident.  I did have all the user accounts backed-up so anyone with an account should still be able to login to the service.</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/17/the-smoke-clears-0day-downtime-conclusion/">The Smoke Clears - 0day Downtime Conclusion</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-17T00:00:00+02:00" pubdate data-updated="true">Jun 17<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Okay the craziness is somewhat over.  I have some good news and some bad news.<br/><br/>1.  /g/mail and news are dead, and I cannot restore from backups as I cannot find the key for the tarsnap archives for these services.<br/><br/>2.  Everything else is fine and back up.<br/><br/>So this means I will reinstate the mail server from fresh, and anyone with an account will need to ask again for one.  As well as the newznab service.<br/><br/>I am very sorry for this as I take full responsibility for botching the backups.<br/><br/><strong>Going forward:</strong><br/></p>
+
+
+<ul><br/><li>I will obviously be taking backups more seriously, starting with a new server for storing them in addition to offsite/offline backups.</li><br/><li>Our DNS is now hosted with Amazon Web Services Route 53, no longer will all of our services go down if our primary DNS (was hosted with ramnode) goes down.</li><br/><li>Since our DNS will be much more resilient I will be moving our status site and blog over to an Amazon EC2 instance, one will just have to remember status.installgentoo.com instead of the weird azure urls.</li><br/></ul>
+
+
+<br/>If there is anything I missed please contact me.<br/><br/> <br/><br/>Also backstory:<br/><br/><a href="https://gist.github.com/ElliotSpeck/66943b70c8b98e5b2afb">What happened with ramnode</a><br/><br/><a href="http://paste.installgentoo.com/view/1da24af3">The explanation the next day from the owner</a><br/><br/> 
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/17/news-for-g-mail/">News for /g/mail</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-17T00:00:00+02:00" pubdate data-updated="true">Jun 17<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><div><br/><br/>Okay last blog post I stated I would nuke the server and reinstate service minus the backups.  Before doing this I have decidied I will wait for Nick_A the owner of ramnode to get back to me on whether we have backups to restore from or now, just to confirm before I wipe all this data.<br/><br/> <br/><br/>Stay tuned. Sorry about all this.<br/><br/></div></p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/17/g-mail-has-returned/">/g/mail Has Returned</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-17T00:00:00+02:00" pubdate data-updated="true">Jun 17<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>after getting the final word from our ramnode provider that all hope was lost for us to get a restore I have gone ahead and reinstated the /g/mail service from scratch.  It is all fresh, and no accounts remain, please contact a staff member if interested in getting a new account.<br/><br/> <br/><br/>We are very sorry for this and it is unlikely that this will ever happen again if that is any consolation.</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/16/0day-downtime-updated/">0day Downtime - Updated</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-16T00:00:00+02:00" pubdate data-updated="true">Jun 16<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Okay so ramnode is now saying some VPS are back up and some are dead, the dead ones are in the process of being restored from backups of uncertain date.<br/><br/>Some of our VPS seemed to have survived while others are not responding at all, one of the later of course is our DNS node.<br/><br/>Hopefully these will be back up later today.  Especially our IRC and DNS ones.  If they are not I will look into setting up our DNS again somewhere else for in the mean time.<br/><br/>Stay tuned.</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/16/0day-downtime-update2/">0day Downtime -update2</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-16T00:00:00+02:00" pubdate data-updated="true">Jun 16<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Okay another update, a little late, but hey.<br/><br/>Ramnode is still down and in owner is in the process of restoring all the node data.  This could be 24+ hours until done.  And this does not guarantee that ours had the data backed up.<br/><br/>I have gone ahead and setup our DNS elsewhere, on Amazon Web Services Route53.  This is resilient and not going anywhere.  I have also provisioned an Amazon EC2 instance to run our main site installgentoo.com.<br/><br/>By bring DNS back up a good portion of our services are back up as well, including img, ftp, gtracker, gtg, blogs, paste, books and probably another that I cannot recall at this moment.<br/><br/>Once this storm blows over I will look into possibly getting a better status site through amazon, as well as moving IRC over to amazon for better resiliency.<br/><br/>Anyway stay tuned hopefully tomorrow most of our nodes will be back up.<br/><br/>Also anyone wanting to know the back story<br/><br/><a href="https://gist.github.com/ElliotSpeck/66943b70c8b98e5b2afb"><a href="https://gist.github.com/ElliotSpeck/66943b70c8b98e5b2afb">https://gist.github.com/ElliotSpeck/66943b70c8b98e5b2afb</a></a><br/><br/> </p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/16/0day-downtime/">0day Downtime</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-16T00:00:00+02:00" pubdate data-updated="true">Jun 16<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Okay so this is a big one.  Ramnode, our primary VPS provider had a massive 0day intrusion with their version of SolusVM panel.  This 0day leaked root passwords, and other sensitive info.<br/><br/>This brought down many of our services that run on ramnode, including DNS which once down made it diificult to get to the other IG services.  It would seem that the data is fine but we are waiting for the VPS to come back online.<br/><br/>More info can be read here:  <a href="https://gist.github.com/ElliotSpeck/66943b70c8b98e5b2afb"><a href="https://gist.github.com/ElliotSpeck/66943b70c8b98e5b2afb">https://gist.github.com/ElliotSpeck/66943b70c8b98e5b2afb</a></a><br/><br/>Our plan of action is this:<br/><br/>1.  Going to wait, I plan on waiting until this evening ~5hours to see if anything happens.  Ramnode comes back online etc. etc.<br/><br/>2.  If not, I will start buying new VPS to get us back online at this time.<br/><br/> <br/><br/>Don&#8217;t forget our failback irc is IRC.P2P-IRC.NET @ #/g/tracker</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/07/new-dungeon-crawl-stone-soup-server/">NEW - Dungeon Crawl Stone Soup Server</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-07T00:00:00+02:00" pubdate data-updated="true">Jun 7<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>New roguelike game server up with webtiles at <a href="http://dungeon.installgentoo.com">dungeon.installgentoo.com</a>&#160;!</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/07/games-are-back/">Games Are Back!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-07T00:00:00+02:00" pubdate data-updated="true">Jun 7<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Minecraft, UT99, and KillingFloor are back up and running!  Stat tracking for UT and KF may still be refreshing with GameTracker.</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/05/new-installgentoo-com-site/">New installgentoo.com Site</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-05T00:00:00+02:00" pubdate data-updated="true">Jun 5<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Another new version of our site is now live.  enjoy!</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/6/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/4/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/10/20/slash-g-slash-mail-gets-an-extra-smtp-port/">/g/mail Gets an Extra Smtp Port</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/10/17/server-checker-fixed/">Server Checker Fixed</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/10/17/status-blog-move-dot-dot-dot-again/">Status Blog Move&#8230; Again</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/10/14/thanks-to-some-long-time-staff-members/">Thanks to Some Long Time Staff Members.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/10/13/moving-of-the-status-blog/">Moving of the Status Blog.</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - bananafish -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
